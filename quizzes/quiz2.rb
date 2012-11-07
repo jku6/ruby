@@ -1,17 +1,17 @@
 require 'pry'
 
-# x = 250
-# y = 180000
 
-# while x <= y
-# 	x = x + 1
-# 	z = x + x
-# 	puts "#{z}"
-
-# end
 
 answer = ((250 + 180000)*(180000/2))
 puts "the number is #{answer}"
+
+# this sums up all of the numbers between 250 and 180000
+total = 0
+(250..180000).each do |i|
+	total += i
+end
+puts "#{total}"
+
 
 
 
