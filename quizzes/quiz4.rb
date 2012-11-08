@@ -37,7 +37,10 @@ end
 
 #z = square(number)
 
-puts "This is the new array #{numbers.map {|f| f.square(number)}.join(', ')}"
+
+
+
+puts "This is the new array #{numbers.map {|f| square(f)}.join(', ')}"
 
 # farms.map {|f| f.name}.join(', ')
 
