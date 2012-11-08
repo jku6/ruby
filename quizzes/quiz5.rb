@@ -19,3 +19,7 @@ end
 class Daughter < Father
 
 end
+
+class Cousin < Uncle
+
+end
